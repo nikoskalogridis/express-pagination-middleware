@@ -1,6 +1,6 @@
 {
   "name": "express-pagination-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express pagination middleware module",
   "author": "Nikos Kalogridis",
   "license": "MIT",
