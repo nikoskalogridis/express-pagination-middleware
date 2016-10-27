@@ -7,5 +7,9 @@
   "main": "index.js",
   "devDependencies": {
     "tape": "^4.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikoskalogridis/express-pagination-middleware"
   }
 }
