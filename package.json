@@ -1,0 +1,11 @@
+{
+  "name": "express-pagination-middleware",
+  "version": "1.0.0",
+  "description": "Express pagination middleware module",
+  "author": "Nikos Kalogridis",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "^4.6.2"
+  }
+}
