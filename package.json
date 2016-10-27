@@ -11,5 +11,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nikoskalogridis/express-pagination-middleware"
+  },
+  "bugs": {
+    "url": "https://github.com/nikoskalogridis/express-pagination-middleware/issues"
   }
 }
