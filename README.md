@@ -2,6 +2,7 @@
 [![GitHub release](https://img.shields.io/github/release/nikoskalogridis/express-pagination-middleware.svg)]()
 [![Build Status](https://travis-ci.org/nikoskalogridis/express-pagination-middleware.svg?branch=master)](https://travis-ci.org/nikoskalogridis/express-pagination-middleware)
 [![npm](https://img.shields.io/npm/dt/express-pagination-middleware.svg)]()
+[![npm](https://img.shields.io/npm/l/express-pagination-middleware.svg)]()
 
 This module exports a **function** that takes a configuration object parameter with the following
 properties:
