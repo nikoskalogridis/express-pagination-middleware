@@ -14,5 +14,8 @@
   },
   "bugs": {
     "url": "https://github.com/nikoskalogridis/express-pagination-middleware/issues"
+  },
+  "scripts": {
+    "test": "node test/paginationMiddleware.js"
   }
 }
