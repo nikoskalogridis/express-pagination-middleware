@@ -6,6 +6,7 @@
   "license": "MIT",
   "main": "index.js",
   "devDependencies": {
+    "jslint": "^0.10.3",
     "tape": "^4.6.2"
   },
   "repository": {
@@ -16,7 +17,7 @@
     "url": "https://github.com/nikoskalogridis/express-pagination-middleware/issues"
   },
   "scripts": {
-    "test": "node test/paginationMiddleware.js"
+    "test": "node node_modules/jslint/bin/jslint.js --edition=latest '**/*.js' && node test/paginationMiddleware.js"
   },
   "keywords": [
     "pagination",
