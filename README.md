@@ -1,4 +1,5 @@
 # express-pagination-middleware
+[![GitHub release](https://img.shields.io/github/release/nikoskalogridis/express-pagination-middleware.svg)]()
 [![Build Status](https://travis-ci.org/nikoskalogridis/express-pagination-middleware.svg?branch=master)](https://travis-ci.org/nikoskalogridis/express-pagination-middleware)
 
 This module exports a **function** that takes a configuration object parameter with the following
