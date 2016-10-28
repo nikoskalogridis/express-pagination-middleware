@@ -43,9 +43,9 @@ npm install --save express-pagination-middleware
 
 then in your express application
 
-```
+```javascript
 ...
-var paginationMiddleware = require("express-pagination-middleware);
+var paginationMiddleware = require("express-pagination-middleware");
 var userPaginationMiddleware = paginationMiddleware({
     sort: {
         validKeys: ["created", "age", "email"]

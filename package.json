@@ -17,5 +17,10 @@
   },
   "scripts": {
     "test": "node test/paginationMiddleware.js"
-  }
+  },
+  "keywords": [
+    "pagination",
+    "express",
+    "middleware"
+  ]
 }
