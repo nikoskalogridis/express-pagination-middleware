@@ -79,3 +79,9 @@ router.get("/users", usersPaginationMiddleware, function (req, res, next) {
       .catch(next);
 }
 ````
+
+### Contributing
+
+Feel free to contribute to this project but please open pull requests only on the **development** branch and make sure you include tests for new functionality or issues identified with the codebase.
+
+**All PR's should pass the test build to be considered for merging.**
