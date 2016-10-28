@@ -54,11 +54,18 @@ var userPaginationMiddleware = paginationMiddleware({
         min: 10,
         max: 500
     }
-);
+});
 
+// matching the url http://.../users?sort=created&limit=20&skip=40
 router.get("/users", usersPaginationMiddleware, function (req, res, next) {
     // now the req parameter will have pagination property with all the required info
-    // for you to return the results
+    // req.pagination = {
+    //     sort: {
+    //         created: true
+    //     },
+    //     limit: 20,
+    //     skip: 40
+    // }
     Users
       .find()
       .sort(req.pagination.sort)
