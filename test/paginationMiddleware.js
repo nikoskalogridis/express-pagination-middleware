@@ -28,6 +28,28 @@ function createTest(description, config, query, result) {
     });
 }
 
+test("Calling the factory function with no config object should raise an exception", function (t) {
+    t.plan(1);
+    try {
+        paginationMiddleware();
+        t.fail("Exception was not raised");
+    } catch (ignore) {
+        t.pass("Exception raised");
+    }
+});
+
+test("Calling the factory function with a configuration with no sort attributes should raise an exception", function (t) {
+    t.plan(1);
+    try {
+        paginationMiddleware({
+            sort: {}
+        });
+        t.fail("Exception was not raised");
+    } catch (ignore) {
+        t.pass("Exception raised");
+    }
+});
+
 createTest(
     "Testing default configuration parameters and that the '-' char is parsed correctly on the default key",
     {
