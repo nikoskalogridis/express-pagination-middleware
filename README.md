@@ -1,6 +1,7 @@
 # express-pagination-middleware
 [![GitHub release](https://img.shields.io/github/release/nikoskalogridis/express-pagination-middleware.svg)]()
 [![Build Status](https://travis-ci.org/nikoskalogridis/express-pagination-middleware.svg?branch=master)](https://travis-ci.org/nikoskalogridis/express-pagination-middleware)
+[![Known Vulnerabilities](https://snyk.io/test/github/nikoskalogridis/express-pagination-middleware/badge.svg?targetFile=package.json)](https://snyk.io/test/github/nikoskalogridis/express-pagination-middleware?targetFile=package.json)
 [![npm](https://img.shields.io/npm/dt/express-pagination-middleware.svg)]()
 [![npm](https://img.shields.io/npm/l/express-pagination-middleware.svg)]()
 
